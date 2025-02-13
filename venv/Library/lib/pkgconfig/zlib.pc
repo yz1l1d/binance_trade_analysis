@@ -1,0 +1,13 @@
+prefix=D:/Binance_Trade_Analysis/venv/Library
+exec_prefix=D:/Binance_Trade_Analysis/venv/Library
+libdir=D:/Binance_Trade_Analysis/venv/Library/lib
+sharedlibdir=D:/Binance_Trade_Analysis/venv/Library/lib
+includedir=D:/Binance_Trade_Analysis/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
